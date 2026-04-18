@@ -40,8 +40,8 @@ Questions to Answer:
     Weddings have the highest default rates with 32.14%
     Average loan amount differs by £557.80 (defaulted higher).
 
-5. How do employment status and years employed affect default risk? Are borrowers with less than 2 years of employment significantly more likely to default?
+4. How do employment status and years employed affect default risk? Are borrowers with less than 2 years of employment significantly more likely to default?
     
-    Default risk is highest amongst borrowers with lots of years of employment e.g. 15+ and people who are self-employed / on contract / retired / part-time. Rather than people with full-time jobs.
+    Default risk is highest amongst borrowers who are self-employed / on contract / retired / part-time. Rather than people with full-time jobs. Although the difference isn't significant. The number of years                  borrowers were employed doesn't significantly correlate with default risk. Therefore, financial information (e.g credit score & DTI) should be used to determine loan approvals, rather than borrower demographics (e.g.     years of employment, type of employment, loan purposes).
+   
     Average default rate is 24.29% and default rate for borrowers with less than 2 years of employment is 34.52%. So, borrowers with less than 2 years of experience are 10.23% more likely to default, which is pretty          significant.
-    
