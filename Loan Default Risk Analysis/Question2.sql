@@ -12,7 +12,7 @@ SELECT * FROM joined_table;
             45-59 - 24.5033%
             60+ - 35.6784%
 There is a relationship between DTI ratio and likelihood of defaulting. The higher the DTI ratio, the higher the likelihood of defaulting.
-If the company has a target of keeping defaulting rate at 12% or below, they should only approve loans for borrowers with 10-34% DTI ratio. This is the only bucket, where default ratio is less than 12%.
+If the company has a target of keeping defaulting rate at 12% or below, they should only approve loans for borrowers with DTI ratio less than 35%. This is the only bucket, where default ratio is less than 12%.
 */
 
 -- Put dti_ratio into buckets - 0-19, 20-34, 35-44, 45-59, 60+
