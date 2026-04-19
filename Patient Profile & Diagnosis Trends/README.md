@@ -18,9 +18,9 @@ Questions:
 
 3. How many visits does the average patient have, and who are the high utilizers?
 
-  Count total diagnosis events per patient.
-  Find the average number of visits per patient.
-  Identify “high utilizers” (patients with 4+ visits) - put them in a table so     the team can easily see them in the dashboard.
+   Count total diagnosis events per patient.
+   Find the average number of visits per patient.
+   Identify “high utilizers” (patients with 4+ visits) - put them in a table so     the team can easily see them in the dashboard.
 
 4. Which CPT codes (procedures) are performed most often?
 
