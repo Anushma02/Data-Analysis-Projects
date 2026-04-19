@@ -2,27 +2,26 @@ You are a Data Analyst for a mid-sized healthcare clinic. You’ve been given a 
 
 Questions:
 1. What does the clinic’s patient population look like by Age?
+
+   Calculate patient age from DOB.
+   Group patients into simple age bands (0–17, 18–39, 40–64, 65+).
+   Create a count for each age Range and visualize it (probably with a Bar Chart)
+   
 2. What are the top diagnoses overall?
+
+   Join patients to diagnoses using patient_id.
+   Count how many times each ICD code appears.
+   Identify the top 10 diagnoses overall.
+   Break down top diagnoses by:
+   Age band
+   Sex
+
 3. How many visits does the average patient have, and who are the high utilizers?
+
+  Count total diagnosis events per patient.
+  Find the average number of visits per patient.
+  Identify “high utilizers” (patients with 4+ visits) - put them in a table so     the team can easily see them in the dashboard.
+
 4. Which CPT codes (procedures) are performed most often?
 
-1. Patient Population Overview
-Calculate patient age from DOB.
-Group patients into simple age bands (0–17, 18–39, 40–64, 65+).
-Create a count for each age Range and visualize it (probably with a Bar Chart)
-
-2. Diagnosis Analysis
-Join patients to diagnoses using patient_id.
-Count how many times each ICD code appears.
-Identify the top 10 diagnoses overall.
-Break down top diagnoses by:
-Age band
-Sex
-
-3. Visit Utilization
-Count total diagnosis events per patient.
-Find the average number of visits per patient.
-Identify “high utilizers” (patients with 4+ visits) - put them in a table so the team can easily see them in the dashboard.
-
-4. Procedure (CPT) Insights
-Rank CPT codes by frequency to see which procedures are performed most often.
+   Rank CPT codes by frequency to see which procedures are performed most often.
