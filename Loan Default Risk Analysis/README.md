@@ -1,4 +1,5 @@
 Project from: https://www.analystbuilder.com/projects/loan-default-risk-analysis-Vjfdl?tab=overview
+
 Stack: SQL
 
 You are a data analyst at a mid-size consumer lending company. Management is concerned about the rising default rate on personal loans and wants data-driven insights to improve the underwriting process. In this project you will explore borrower demographics, loan characteristics, and repayment outcomes to identify the key risk factors that predict loan defaults. This is a foundational credit risk analysis project that mirrors real work done at banks, fintech lenders, and credit unions.
