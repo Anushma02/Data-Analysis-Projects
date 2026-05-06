@@ -1,10 +1,5 @@
 You are a Data Analyst for a mid-sized healthcare clinic. You’ve been given a synthetic dataset containing two tables: basic patient demographics (age, sex, race, insurance, ZIP code) and a diagnosis history containing ICD and CPT codes for each visit. Your job is to help the clinic understand the makeup of its patient population and the most common conditions they treat. Doctors see patients one by one, but you get to see the big picture. Use this dataset to build simple insights about who your patients are and what health issues are most common.
 
-| 65+ | 30 |
-| --- | --- |
-| 18-39 | 66 |
-| 40-64 | 104 |
-
 Stack: Excel, Tableau
 
 Questions:
