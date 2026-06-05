@@ -6,10 +6,10 @@ CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 202
 
 Stack: Python & Pandas on Jupyter Notebook
 
-**Questions:
-**
-**1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
-**
+**Questions:**
+
+**1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?**
+
 Overall churn rate for this business over the 4-year period is 52.17% (2dp). 313 out of 600 customers have churned.
 
 <img width="761" height="352" alt="image" src="https://github.com/user-attachments/assets/b0b24f46-2018-4b6a-8d9f-b568f4d90419" />
@@ -23,13 +23,10 @@ Churn is improving as the 'Monthly Churn Rate Trend' graph shows that churn rate
 Additionally, there are spikes where monthly churn rate increases every April. This could be because most companies begin their financial calendars in April. So, this may be where they review if they would like to keep their subscriptions or cancel them. Therefore, it should be expected that every April there will be a spike in churn rate.
 
 
-**2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?
-**
+**2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?**
 
    
-**3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?
-**
+**3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?**
 
 
-**4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
-**
+**4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?**
