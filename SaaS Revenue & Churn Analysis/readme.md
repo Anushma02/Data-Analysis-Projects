@@ -78,8 +78,6 @@ The top churn reasons do differ by company size. However, company closing is a r
 
 **4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?**
 
-<img width="212" height="79" alt="image" src="https://github.com/user-attachments/assets/7819fdf9-b0e8-419d-a977-817b0390a20f" />
-
 <img width="771" height="379" alt="image" src="https://github.com/user-attachments/assets/bcd74263-a1ed-4a7f-b67e-ee445cbad1fc" />
 
 Average CLV by plan / Most to least profitable:
