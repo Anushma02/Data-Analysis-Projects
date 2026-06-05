@@ -25,8 +25,18 @@ Additionally, there are spikes where monthly churn rate increases every April. T
 
 **2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?**
 
+<img width="768" height="373" alt="image" src="https://github.com/user-attachments/assets/06dcaa63-9595-4719-8556-765c06009e23" />
+
+Customers with the 'Starter' subscription plan have the highest churn rate of 70.51% (2dp), significantly more than the others, making it the highest-risk plan.
+
+It's followed by 'Professional' then 'Business' then 'Enterprise'. This is likely because starters usually consist of individuals. They may just be testing out the software for fun or personal reasons, so they are less commited and reliant on it. Whereas, customers using it for work rely on it heavily as it is a necessity to them.
    
 **3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?**
 
 
+
+
 **4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?**
+
+
+**Conclusion**
