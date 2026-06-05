@@ -6,22 +6,25 @@ CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 202
 
 Stack: Python & Pandas on Jupyter Notebook
 
+<br>
+
 **Questions:**
 
 **1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?**
 
-Overall churn rate for this business over the 4-year period is 52.17% (2dp). 313 out of 600 customers have churned.
+Overall churn rate for this business is 52.17% (2dp). 313 out of 600 customers have churned.
 
 <img width="770" height="359" alt="image" src="https://github.com/user-attachments/assets/1afea4e9-2136-419c-a598-1d7ee42537dc" />
 
 The monthly churn rate has decreased overtime (past 4 years). In the first year, monthly churn rate was generally higher because there were fewer customers so it had a bigger impact on churn rate if a customer churned.
 
-After the first year, churn rate sits between 0 - 7.5%
+After the first year, monthly churn rate sits between 0 - 7.5%
 
 Churn is improving as the 'Monthly Churn Rate Trend' graph shows that churn rate is slowly decreasing overtime.
 
-Additionally, there are spikes where monthly churn rate increases every April. This could be because most companies begin their financial calendars in April. So, this may be where they review if they would like to keep their subscriptions or cancel them. Therefore, it should be expected that every April there will be a spike in churn rate.
+Additionally, there are spikes where monthly churn rate increases every April. This could be because most companies begin their financial calendars in April. So, this may be where they review their subscriptions if they would like to keep or cancel them. Therefore, it should be expected that every April there will be a spike in churn rate.
 
+<br>
 
 **2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?**
 
@@ -29,14 +32,15 @@ Additionally, there are spikes where monthly churn rate increases every April. T
 
 Customers with the 'Starter' subscription plan have the highest churn rate of 70.51% (2dp), significantly more than the others, making it the highest-risk plan.
 
-It's followed by 'Professional' then 'Business' then 'Enterprise'. This is likely because starters usually consist of individuals. They may just be testing out the software for fun or personal reasons, so they are less commited and reliant on it. Whereas, customers using it for work rely on it heavily as it is a necessity to them.
+It's followed by 'Professional' then 'Business' then 'Enterprise'. This is likely because starters usually consist of individuals. They may just be testing out the software for fun or personal reasons, so they are less commited and reliant on it. Whereas, customers using it for work rely on it heavily and it is a necessity to them.
 
 <img width="772" height="377" alt="image" src="https://github.com/user-attachments/assets/b4a4f754-bc41-4149-95a2-44929995f23b" />
 
 The monthly billing cycle has about 20% more churn rate than the annual one, making it higher risk.
 
-This could be because customers with monthly cycles are less committed to using the software for a long period of time to begin with. Therefore, they are more likely to cancel their subscription. They also have more chances to cancel their subscriptions (12 times as opposed to 1 time).
+This could be because customers with monthly cycles are less committed to using the software for a long period of time to begin with. Therefore, they are more likely to cancel their subscription. They also have more chances to cancel their subscriptions (12 times a year as opposed to 1 time).
 
+<br>
 
 **3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?**
 
@@ -75,6 +79,7 @@ Top 3 churn reasons by company size:
 
 The top churn reasons do differ by company size. However, company closing is a reason for all company sizes, except medium size companies (201-500). Therefore, there is no guarantee that the bigger a company is, the less likely it is to churn because it closed. It also seems all company sizes have financial reasons for churning, except companies that are really big (500+) and small companies (11-50). Additionally, these company sizes (11-50 and 500+) tend to churn due to poor support and no longer needing the product.
 
+<br>
 
 **4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?**
 
@@ -94,5 +99,46 @@ Most profitable plans are where the customers buy 'Business' or 'Enterprise' pla
 
 Average CAC per customer is 16.00 (2dp). This is very low compared to the Average CLV by plan. Therefore the CLV:CAC ratio is is very healthy for this company and customer acquisition efforts are profitable. The Total CAC for all 600 customers is 9601.95. In comparison, the total revenue from all 600 customers is 8394643.87 (2dp).
 
+<br>
 
-**Conclusion/Recommendations**
+**Key Takeaways:**
+
+- CloudTask Pro has achieved strong growth since launching in 2022, reaching 600 customers and generating over $8.39 million in total revenue. However, customer churn remains a significant challenge, with an overall churn rate of 52.17%, meaning that 313 out of 600 customers have cancelled their subscriptions.
+
+- Despite the high cumulative churn rate, monthly churn performance has improved over time. Monthly churn rates have generally declined since the company's early years and now typically remain between 0% and 7.5%, indicating that customer retention efforts have become more effective as the customer base has matured. A recurring increase in churn during April suggests a seasonal pattern that may be linked to customers reviewing software budgets at the start of a new financial year.
+
+- The analysis identified clear differences in churn risk across customer segments. Starter plan customers have the highest churn rate at 70.51%, while Enterprise customers have the lowest churn rate. Customers on monthly billing cycles are also significantly more likely to churn than those on annual contracts, highlighting the importance of long-term commitments for retention.
+
+- Financial factors are the primary drivers of churn among smaller customers. Budget cuts and pricing concerns account for a large proportion of cancellations on Starter and Professional plans. In contrast, larger Business and Enterprise customers are more likely to churn because of product-related issues such as missing features, poor support, reduced business need, or switching to competitors.
+
+- From a profitability perspective, Business and Enterprise plans generate substantially greater value than lower-tier plans. Enterprise customers have an average CLV of £66,738, while Business customers generate approximately £21,900 in lifetime value. With an average CAC of only £16 per customer, CloudTask Pro maintains an exceptionally strong CLV-to-CAC ratio, indicating that customer acquisition efforts are highly profitable and scalable.
+
+- Overall, the company is in a healthy financial position with strong unit economics, improving retention trends, and significant opportunities to increase revenue by reducing churn among lower-tier customers and expanding higher-value customer segments.
+
+<br>
+
+**Recommendations:**
+
+1. Reduce churn among Starter and Professional customers through pricing and retention initiatives.
+
+Since budget cuts and pricing concerns are the leading causes of churn for these segments, the company should consider introducing retention offers, discounted annual plans, loyalty incentives, or feature-limited lower-cost options. These actions could help retain price-sensitive customers who might otherwise cancel.
+
+2. Increase adoption of annual billing plans.
+
+Customers on monthly subscriptions churn significantly more frequently than annual subscribers. Offering stronger discounts for annual commitments, promoting annual plans during onboarding, and encouraging upgrades before renewal periods could improve retention and increase predictable recurring revenue.
+
+3. Launch proactive retention campaigns before April.
+
+The recurring spike in churn during April suggests that customers reassess software spending at the start of a financial year. CloudTask Pro should proactively engage customers during the months leading up to April through value-focused communications, renewal incentives, account reviews, and customer success outreach.
+
+4. Improve product and support experiences for larger customers.
+
+Business and Enterprise customers often churn because of missing features, poor support, or competitive alternatives. The company should prioritise feature requests from larger accounts, strengthen customer success programmes, provide faster support response times, and conduct regular business reviews with high-value customers.
+
+5. Focus customer acquisition efforts on Business and Enterprise segments.
+
+Business and Enterprise plans generate substantially higher lifetime value and lower churn rates. Sales and marketing resources should prioritise acquiring organisations that fit these customer profiles, as they offer the greatest long-term profitability and revenue stability.
+
+6. Conduct deeper analysis of competitive churn.
+
+Enterprise customers frequently cite switching to competitors as a reason for cancellation. Exit surveys, customer interviews, and competitor analysis should be used to understand which competitors are winning these customers and what product gaps need to be addressed.
