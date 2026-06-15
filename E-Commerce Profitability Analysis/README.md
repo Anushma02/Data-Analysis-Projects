@@ -6,3 +6,6 @@ BrightCart is an online retailer selling products across 8 categories through th
 The company did $1M+ in gross revenue over the past two years, but net margins have been shrinking. The CEO wants to know which product categories and sales channels are truly profitable after all costs, 
 which marketing platforms are delivering the best return on ad spend, and whether the return rate is eating into margins. You have three datasets: order-level transactions, a product catalogue with cost data, 
 and monthly marketing spend by platform.
+
+Stack: Excel, Tableau (https://public.tableau.com/app/profile/anushma.thapa/viz/TableauDashboard_17815602034220/Story1#1)
+
