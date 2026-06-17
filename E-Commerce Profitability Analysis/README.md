@@ -11,7 +11,7 @@ While top-line revenue looks healthy, the CEO suspects that not all product cate
 In this project you will perform a true profitability analysis by connecting order-level transaction data with product costs and marketing spend to find out where the company is actually making (and losing) money.
 
 BrightCart is an online retailer selling products across 8 categories through their website, mobile app, third-party marketplaces, and social commerce. 
-The company did $1M+ in gross revenue over the past two years, but net margins have been shrinking. The CEO wants to know which product categories and sales channels are truly profitable after all costs, 
+The company did £1M+ in gross revenue over the past two years, but net margins have been shrinking. The CEO wants to know which product categories and sales channels are truly profitable after all costs, 
 which marketing platforms are delivering the best return on ad spend, and whether the return rate is eating into margins. You have three datasets: order-level transactions, a product catalogue with cost data, 
 and monthly marketing spend by platform.
 
@@ -56,7 +56,7 @@ Returns and discounts are relatively consistent across categories and have a sma
 <img width="796" height="455" alt="image" src="https://github.com/user-attachments/assets/91cd95ca-2d69-485a-a418-b8b62894000c" />
 
 Mobile App and Website are the most profitable channels at 29.76% and 27.01%, respectively. Marketplace and Social Commerce are the least profitable at 13.03% and 15.37%. 
-The primary driver of this gap is platform fees. Marketplace charges an average of $18.97 per order and Social Commerce $9.87, costs that do not exist on owned channels (Mobile App & Website). 
+The primary driver of this gap is platform fees. Marketplace charges an average of £18.97 per order and Social Commerce £9.87, costs that do not exist on owned channels (Mobile App & Website). 
 Without platform fees, Marketplace and Social Commerce margins would be significantly more competitive.
 
 <br>
@@ -68,7 +68,7 @@ Without platform fees, Marketplace and Social Commerce margins would be signific
 Return rates are relatively consistent across both categories and channels, ranging from 5.67% to 9.14%.
 Electronics, Books & Clothing have the highest return rate by category ranging from 8.19% to 8.61%.
 Social Commerce has the highest return rate by channel at 9.14% and Marketplace the lowest at 6.44%. 
-Total revenue lost to returns across the full analysis period was $20,582.
+Total revenue lost to returns across the full analysis period was £20,582.
 In order to reduce returns and in turn, the revenue lost to returns, BrightCart should ask their customers why the reason for their return. With this extra field, they could understand why specific product categories and sales channels have higher return rates than others.
 
 <br>
@@ -85,7 +85,7 @@ TikTok Ads and Influencer marketing deliver the highest ROAS in the dataset. Ema
 
 <img width="797" height="448" alt="image" src="https://github.com/user-attachments/assets/a8144d70-774c-44e4-9851-621a471fe599" />
 
-A 20% annual marketing budget cut equates to approximately £50,351 in savings required per year. Email Marketing is the primary candidate for reduction. Cutting it entirely would save BrightCart $24,500 annually with minimal revenue impact, given its consistently low ROAS relative to all other platforms. 
+A 20% annual marketing budget cut equates to approximately £50,351 in savings required per year. Email Marketing is the primary candidate for reduction. Cutting it entirely would save BrightCart £24,500 annually with minimal revenue impact, given its consistently low ROAS relative to all other platforms. 
 ROAS trend analysis shows Email Marketing is the most consistent but least performing platform over the 24 month period. Higher ROAS platforms like TikTok and Influencer show more volatility month to month but deliver significantly stronger returns. Based on average monthly ROAS performance, the months most suitable for spend reduction are majority months in the second half of the year: January, July, August, September, November & December. These all fall below the overall monthly average ROAS.
 
 <br>
@@ -106,7 +106,7 @@ BrightCart should reposition Marketplace and Social Commerce as acquisition tool
 BrightCart should add a mandatory dropdown field during the returns process asking customers to select a reason - options such as wrong size, not as described, changed mind, damaged, etc. This is a low-cost, high-value change that would convert the current category-level return rate data into actionable root-cause data, allowing future analysis to target the specific fix each category/channel needs.
 
 ### 5. Cut Email Marketing Campaigns
-Email marketing has the lowest ROAS value of 5.41x, which barely exceeds BrightCart's minimum ROAS of 4.19x to break even. This will save the company roughly $24,500 per year in marketing spend. The further $25k in budget cut can be saved by reducing spending on Facebook Ads and Google Ads, as these produce the next lowest ROAS values.
+Email marketing has the lowest ROAS value of 5.41x, which barely exceeds BrightCart's minimum ROAS of 4.19x to break even. This will save the company roughly £24,500 per year in marketing spend. The further approximate £25k in budget cut can be saved by reducing spending on Facebook Ads and Google Ads, as these produce the next lowest ROAS values.
 
 ### 6. Time Marketing Spend Increases Around Seasonal ROAS Strength
 Since ROAS dips below the monthly average in January, July, August, September, November & December, BrightCart should treat these as lower-priority spend months and instead shift a larger proportion of the annual marketing budget into the stronger-performing months (2nd half of the year). This seasonal reallocation, rather than a flat reduction throughout the year, would help protect overall revenue while still achieving the targeted budget cut.
