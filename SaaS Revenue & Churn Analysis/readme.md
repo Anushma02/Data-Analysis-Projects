@@ -1,4 +1,4 @@
-# SaaS Revenue & Churn Analysis
+# CloudTask Pro - SaaS Revenue & Churn Analysis
 
 Project from: https://www.analystbuilder.com/projects/saas-revenue-churn-analysis-UPoYs?tab=overview
 
@@ -16,7 +16,7 @@ CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 202
 
 ### 1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
 
-Overall churn rate for this business is 52.17% (2dp). 313 out of 600 customers have churned.
+CloudTask Pro's overall churn rate is 52.17% (2dp). 313 out of 600 customers have churned.
 
 <img width="770" height="359" alt="image" src="https://github.com/user-attachments/assets/1afea4e9-2136-419c-a598-1d7ee42537dc" />
 
