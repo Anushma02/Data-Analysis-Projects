@@ -1,6 +1,8 @@
-Data cleaned in Microsoft Excel and visualisations created in Microsoft PowerBI.
+# Goodreads Data Analysis
 
-Cleaning process:
+Tech Stack: Excel, Power BI
+
+## Cleaning process:
 
 - Deleted any columns that weren’t necessary. Narrowed down 24 columns to 12
 - Looked for any duplicate rows to delete - none were found
@@ -17,7 +19,9 @@ Cleaning process:
     - Date Added - Converted from general to short date data type
     - Exclusive Shelf - Added an extra category called ‘dnf’ by using a formula to see which books I rated 0 and said I read.
 
-Visualisations:
+<br>
+
+## Visualisations:
 
 - KPI cards - Total Books Read, Total Pages Read, My Average Rating of Books Read, Average Rating of Books Read
     - Observation - I rate books lower than the general public.
