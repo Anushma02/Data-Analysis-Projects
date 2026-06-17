@@ -1,4 +1,4 @@
-# BrightCart E-Commerce Profitability Analysis
+# BrightCart - E-Commerce Profitability Analysis
 
 Project from: https://www.analystbuilder.com/projects/e-commerce-profitability-analysis-KvrTi?tab=overview
 
