@@ -107,7 +107,7 @@ Average CAC per customer is 16.00 (2dp). This is very low compared to the Averag
 
 ## Key Findings
 
-- CloudTask Pro has achieved strong growth since launching in 2022, reaching 600 customers and generating over $8.39 million in total revenue. However, customer churn remains a significant challenge, with an overall churn rate of 52.17%, meaning that 313 out of 600 customers have cancelled their subscriptions.
+- CloudTask Pro has achieved strong growth since launching in 2022, reaching 600 customers and generating over £8.39 million in total revenue. However, customer churn remains a significant challenge, with an overall churn rate of 52.17%, meaning that 313 out of 600 customers have cancelled their subscriptions.
 
 - Despite the high cumulative churn rate, monthly churn performance has improved over time. Monthly churn rates have generally declined since the company's early years and now typically remain between 0% and 7.5%, indicating that customer retention efforts have become more effective as the customer base has matured. A recurring increase in churn during April suggests a seasonal pattern that may be linked to customers reviewing software budgets at the start of a new financial year.
 
