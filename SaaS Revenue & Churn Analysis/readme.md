@@ -1,16 +1,20 @@
+# SaaS Revenue & Churn Analysis
+
 Project from: https://www.analystbuilder.com/projects/saas-revenue-churn-analysis-UPoYs?tab=overview
-
-You are a business analyst at a B2B SaaS company that sells project management software. The leadership team is preparing for a board meeting and needs a clear picture of revenue trends, customer retention, and churn drivers. In this project you will analyse subscription data, monthly recurring revenue (MRR), and customer behaviour to identify what is causing churn and where the best opportunities for revenue growth are. This type of analysis is common at SaaS startups and is directly relevant to roles in finance, product analytics, and growth.
-
-CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). You have access to a subscription-level dataset with customer details, plan info, and churn status, as well as a monthly revenue summary.
 
 Stack: Python & Pandas on Jupyter Notebook
 
 <br>
 
-**Questions:**
+You are a business analyst at a B2B SaaS company that sells project management software. The leadership team is preparing for a board meeting and needs a clear picture of revenue trends, customer retention, and churn drivers. In this project you will analyse subscription data, monthly recurring revenue (MRR), and customer behaviour to identify what is causing churn and where the best opportunities for revenue growth are. This type of analysis is common at SaaS startups and is directly relevant to roles in finance, product analytics, and growth.
 
-**1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?**
+CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). You have access to a subscription-level dataset with customer details, plan info, and churn status, as well as a monthly revenue summary.
+
+<br>
+
+## Questions
+
+### 1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
 
 Overall churn rate for this business is 52.17% (2dp). 313 out of 600 customers have churned.
 
@@ -26,7 +30,7 @@ Additionally, there are spikes where monthly churn rate increases every April. T
 
 <br>
 
-**2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?**
+### 2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?**
 
 <img width="768" height="373" alt="image" src="https://github.com/user-attachments/assets/06dcaa63-9595-4719-8556-765c06009e23" />
 
@@ -42,7 +46,7 @@ This could be because customers with monthly cycles are less committed to using 
 
 <br>
 
-**3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?**
+### 3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?
 
 <img width="192" height="136" alt="image" src="https://github.com/user-attachments/assets/25d1081a-7831-47ff-a51f-15c23ab317ec" />
 
@@ -81,7 +85,7 @@ The top churn reasons do differ by company size. However, company closing is a r
 
 <br>
 
-**4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?**
+### 4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
 
 <img width="771" height="379" alt="image" src="https://github.com/user-attachments/assets/bcd74263-a1ed-4a7f-b67e-ee445cbad1fc" />
 
@@ -101,7 +105,7 @@ Average CAC per customer is 16.00 (2dp). This is very low compared to the Averag
 
 <br>
 
-**Key Takeaways:**
+## Key Findings
 
 - CloudTask Pro has achieved strong growth since launching in 2022, reaching 600 customers and generating over $8.39 million in total revenue. However, customer churn remains a significant challenge, with an overall churn rate of 52.17%, meaning that 313 out of 600 customers have cancelled their subscriptions.
 
@@ -117,28 +121,28 @@ Average CAC per customer is 16.00 (2dp). This is very low compared to the Averag
 
 <br>
 
-**Recommendations:**
+## Recommendations
 
-1. Reduce churn among Starter and Professional customers through pricing and retention initiatives.
+### 1. Reduce churn among Starter and Professional customers through pricing and retention initiatives.
 
 Since budget cuts and pricing concerns are the leading causes of churn for these segments, the company should consider introducing retention offers, discounted annual plans, loyalty incentives, or feature-limited lower-cost options. These actions could help retain price-sensitive customers who might otherwise cancel.
 
-2. Increase adoption of annual billing plans.
+### 2. Increase adoption of annual billing plans.
 
 Customers on monthly subscriptions churn significantly more frequently than annual subscribers. Offering stronger discounts for annual commitments, promoting annual plans during onboarding, and encouraging upgrades before renewal periods could improve retention and increase predictable recurring revenue.
 
-3. Launch proactive retention campaigns before April.
+### 3. Launch proactive retention campaigns before April.
 
 The recurring spike in churn during April suggests that customers reassess software spending at the start of a financial year. CloudTask Pro should proactively engage customers during the months leading up to April through value-focused communications, renewal incentives, account reviews, and customer success outreach.
 
-4. Improve product and support experiences for larger customers.
+### 4. Improve product and support experiences for larger customers.
 
 Business and Enterprise customers often churn because of missing features, poor support, or competitive alternatives. The company should prioritise feature requests from larger accounts, strengthen customer success programmes, provide faster support response times, and conduct regular business reviews with high-value customers.
 
-5. Focus customer acquisition efforts on Business and Enterprise segments.
+### 5. Focus customer acquisition efforts on Business and Enterprise segments.
 
 Business and Enterprise plans generate substantially higher lifetime value and lower churn rates. Sales and marketing resources should prioritise acquiring organisations that fit these customer profiles, as they offer the greatest long-term profitability and revenue stability.
 
-6. Conduct deeper analysis of competitive churn.
+### 6. Conduct deeper analysis of competitive churn.
 
 Enterprise customers frequently cite switching to competitors as a reason for cancellation. Exit surveys, customer interviews, and competitor analysis should be used to understand which competitors are winning these customers and what product gaps need to be addressed.
