@@ -39,7 +39,39 @@ and monthly marketing spend by platform.
 
 <br>
 
-## Key Findings
+## Excel Analysis
+
+### Excel Data Validation & Preparation
+
+- Imported all source datasets into a single Excel workbook for validation and exploratory analysis.
+- Reviewed each dataset to understand column definitions, identify potential anomalies, and assess overall data quality.
+- Performed data quality checks:
+  - No missing or null values.
+  - No duplicate records across any dataset.
+  - Refunds only occurred on returned orders.
+- Documented validation findings with screenshots and notes on any data observations.
+- Verified the following calculations in the 'orders' dataset:
+  - Net Revenue = Gross Revenue − Discount Amount
+  - Total Costs = Shipping Cost + Product Cost + Platform Fee + Transaction Fee
+  - Profit = Net Revenue − Total Costs
+- Observation: Returned orders retain the full product cost as a loss, reflecting the assumption that returned inventory cannot be resold at full value.
+- Created a calculated field for profit in the 'products' dataset:
+  - Profit = Selling Price − (Unit Cost + Shipping Cost per Unit)
+- Verified the accuracy of key marketing metrics in the 'marketing spend' dataset:
+  - Cost Per Click (CPC) = Spend / Clicks
+  - Cost Per Acquisition (CPA) = Spend / Conversions
+  - Return on Ad Spend (ROAS) = Revenue Attributed / Spend
+- Exploratory Analysis
+  - Built pivot tables for each dataset to identify trends and validate business logic.
+  - Added slicers to enable interactive filtering and exploration.
+  - Created an Excel dashboard using pivot charts to perform initial analysis and verify insights.
+- Once data quality and calculations had been validated, the dataset was exported to Tableau for dashboard development and final profitability analysis.
+
+<img width="257" height="340" alt="image" src="https://github.com/user-attachments/assets/51bf6ff3-259b-4d66-aaa8-7804273b4c96" />
+
+<br>
+
+## Key Findings - Tableau
 
 ### Slide 2 - Category Profitability
 
