@@ -70,6 +70,7 @@ and monthly marketing spend by platform.
 <img width="257" height="340" alt="image" src="https://github.com/user-attachments/assets/51bf6ff3-259b-4d66-aaa8-7804273b4c96" />
 
 <br>
+<br>
 
 ## Key Findings - Tableau
 
